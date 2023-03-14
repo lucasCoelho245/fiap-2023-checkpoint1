@@ -26,4 +26,8 @@ public class EmpregadoService {
 		.build());
     }
     
+    public Empregado update(Empregado empregado) {
+	return repository.save(empregado);
+    }
+    
 }
