@@ -1,4 +1,4 @@
-package com.github.devcanovas.checkpoint1_api;
+package br.com.fiap.checkpoint1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

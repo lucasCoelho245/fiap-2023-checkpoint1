@@ -1,13 +1,15 @@
-package com.github.devcanovas.checkpoint1_api.controller;
+package br.com.fiap.checkpoint1.controller;
 
 
-import static com.github.devcanovas.checkpoint1_api.constants.UrlConstants.URL_GET_ALL_EMPREGADOS;
-import static com.github.devcanovas.checkpoint1_api.constants.UrlConstants.URL_SAVE_EMPREGADO;
-import static com.github.devcanovas.checkpoint1_api.constants.UrlConstants.URL_UPDATE_EMPREGADO;
+import static br.com.fiap.checkpoint1.constants.UrlConstants.URL_GET_ALL_EMPREGADOS;
+import static br.com.fiap.checkpoint1.constants.UrlConstants.URL_SAVE_EMPREGADO;
+import static br.com.fiap.checkpoint1.constants.UrlConstants.URL_UPDATE_EMPREGADO;
 import static org.springframework.http.ResponseEntity.ok;
 
 import java.util.List;
 
+import br.com.fiap.checkpoint1.model.Empregado;
+import br.com.fiap.checkpoint1.service.EmpregadoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,9 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.github.devcanovas.checkpoint1_api.dto.EmpregadoDto;
-import com.github.devcanovas.checkpoint1_api.model.Empregado;
-import com.github.devcanovas.checkpoint1_api.service.EmpregadoService;
+import br.com.fiap.checkpoint1.dto.EmpregadoDto;
 
 import lombok.extern.slf4j.Slf4j;
 

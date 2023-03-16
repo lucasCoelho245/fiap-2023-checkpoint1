@@ -1,9 +1,9 @@
-package com.github.devcanovas.checkpoint1_api.repository;
+package br.com.fiap.checkpoint1.repositorio;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.github.devcanovas.checkpoint1_api.model.Empregado;
+import br.com.fiap.checkpoint1.model.Empregado;
 
 @Repository
 public interface EmpregadoRepository extends JpaRepository<Empregado, Long> {

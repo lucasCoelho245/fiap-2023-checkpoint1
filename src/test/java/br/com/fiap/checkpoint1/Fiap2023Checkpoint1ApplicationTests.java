@@ -1,4 +1,4 @@
-package com.github.devcanovas.checkpoint1_api;
+package br.com.fiap.checkpoint1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

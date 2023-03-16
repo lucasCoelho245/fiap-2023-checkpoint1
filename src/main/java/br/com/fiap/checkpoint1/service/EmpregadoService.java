@@ -1,13 +1,13 @@
-package com.github.devcanovas.checkpoint1_api.service;
+package br.com.fiap.checkpoint1.service;
 
 import java.util.List;
 
+import br.com.fiap.checkpoint1.repositorio.EmpregadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.github.devcanovas.checkpoint1_api.dto.EmpregadoDto;
-import com.github.devcanovas.checkpoint1_api.model.Empregado;
-import com.github.devcanovas.checkpoint1_api.repository.EmpregadoRepository;
+import br.com.fiap.checkpoint1.dto.EmpregadoDto;
+import br.com.fiap.checkpoint1.model.Empregado;
 
 @Service
 public class EmpregadoService {

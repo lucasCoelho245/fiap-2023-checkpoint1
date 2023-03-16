@@ -1,4 +1,4 @@
-package com.github.devcanovas.checkpoint1_api.constants;
+package br.com.fiap.checkpoint1.constants;
 
 import static lombok.AccessLevel.PRIVATE;
 

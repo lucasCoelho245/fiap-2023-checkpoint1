@@ -1,4 +1,4 @@
-package com.github.devcanovas.checkpoint1_api.model;
+package br.com.fiap.checkpoint1.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

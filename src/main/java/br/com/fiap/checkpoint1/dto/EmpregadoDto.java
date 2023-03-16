@@ -1,4 +1,4 @@
-package com.github.devcanovas.checkpoint1_api.dto;
+package br.com.fiap.checkpoint1.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
