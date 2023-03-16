@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 public class Empregado {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // pra gerar o id automatico
     private Long codigoEmpregado;
     
     @Column(name = "nome")
